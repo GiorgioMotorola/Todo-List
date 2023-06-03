@@ -46,7 +46,7 @@ onMounted(() => {
     <section class="left-section">
       <section class="greeting">
         <h2 class="title">
-          What's Up, <input type="text" placeholder="Name Here" v-model="name" />
+          Welcome back, <input type="text" placeholder="Name Here" v-model="name" />
         </h2>
       </section>
 
@@ -54,8 +54,8 @@ onMounted(() => {
         <h3>CREATE TODO</h3>
 
         <form @submit.prevent="addTodo">
-          <h4>What's on your Todo List?</h4>
-          <input type="text" placeholder="e.g. make a video" v-model="input_content" />
+          <h4>&nbsp;</h4>
+          <input type="text" placeholder="e.g. do laundry" v-model="input_content" />
 
           <h4>Pick a Category</h4>
 
